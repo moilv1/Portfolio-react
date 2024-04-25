@@ -1,0 +1,12 @@
+.img{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 40%;
+    border: solid 2px black;
+    .ImageProjet{
+        width: 100%;
+        box-shadow: 10px 10px 11px -7px rgba(0,0,0,0.75);
+    }
+}

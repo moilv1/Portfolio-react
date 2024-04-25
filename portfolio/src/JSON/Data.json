@@ -1,0 +1,12 @@
+[
+    {
+        "Titre_projet": "Projet Kasa",
+        "id": "0",
+        "images_descriptions": [
+            {"img":"http://localhost:3000/Kasa_logement.png", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS avec du SASS. Cette page comporte un composant 'Header' avec le logo Kasa puis une navigation permettant d'aller à l'accueil et sur une page avec les mentions légales. Ensuite il y un composant'Bannière' une image en background puis un titre surposé sur cette même image, il y a aussi en dessous une section comportant chaque 'card' qui est un composant graçe a un .map() je parcours le fichier json à la recherche de tout les image et titre et je les affiche en props d'un composant que j'ai appelé 'card_logement'."},
+            {"img": "../assets/Kasa_logement.ed1f22caa38d958359c9.png", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"}   
+        ]  
+    }
+]
+
+

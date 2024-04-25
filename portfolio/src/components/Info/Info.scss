@@ -1,0 +1,127 @@
+
+
+
+.Info{
+    margin-top: 30px;
+    .Info_container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: white;
+        h1{
+            align-self: flex-start;
+            font-size: 35px;
+            margin: 0;
+            padding-bottom: 8px;
+        }
+
+        h2{
+            align-self: flex-end;
+            padding-top: 8px;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        p{
+            margin-top: 50px;
+            font-size: 18px;
+            font-style: normal;
+            text-align: center;
+            span{
+                font-weight: bold;
+                font-weight: 800;            
+            }
+        }
+
+        .PP{
+            margin-top: 20px;
+            width: 270px;
+            border-radius: 5%;
+        }
+    }
+}
+
+@media (min-width:426px) {
+    .Info{
+        .Info_container{
+            margin-left: 19%;
+            margin-right: 19%;
+            h1{
+                font-size: 38px;
+            }
+    
+            h2{
+                font-size: 23px;
+            }
+    
+            p{
+                margin-top: 50px;
+                font-size: 20px;
+            }
+    
+            .PP{
+                margin-top: 20px;
+                width: 70%;
+                border-radius: 5%;
+            }
+        }
+    }
+}
+
+@media (min-width:769px){
+    .Info{
+        .Info_container{
+            margin-left: 26%;
+            margin-right: 26%;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .Info{
+        .Info_container{
+            margin-left: 28%;
+            margin-right: 28%;
+        }
+    }
+}
+
+@media (min-width:1140px) {
+    .Info{
+        .Info_container{
+            margin-left: 32%;
+            margin-right: 32%;
+        }
+    }
+}
+
+@media (min-width:1400px) {
+    .Info{
+        .Info_container{
+            margin-left: 34%;
+            margin-right: 34%;
+        }
+    }
+}
+
+@media (min-width:1580px) {
+    .Info{
+        .Info_container{
+            margin-left: 36%;
+            margin-right: 36%;
+        }
+    }
+}
+
+@media (min-width:1680px) {
+    .Info{
+        .Info_container{
+            margin-left: 38%;
+            margin-right: 38%;
+        }
+    }
+}
