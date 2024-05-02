@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './SideBar.scss'; 
 
-const SideBar = () => {
+const SideBar = ({lien}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -12,7 +12,7 @@ const SideBar = () => {
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
       <button onClick={toggleSidebar}>{`>>`}</button>
       <ul>
-        <li><a href='https://github.com/moilv1/P.8-KASA'>Lien GitHub</a></li>
+        <li><a href={lien}>Lien GitHub</a></li>
       </ul>
     </div>
   );

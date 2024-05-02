@@ -14,7 +14,7 @@ const Modal = ({description}) => {
   
     return (
       <div>
-        <div className='Open_modal' onClick={openModal}>Ouvrir la modal</div>
+        <div className='Open_modal' onClick={openModal}>Description</div>
         {isOpen && (
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>

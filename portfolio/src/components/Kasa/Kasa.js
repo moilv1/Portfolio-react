@@ -15,8 +15,10 @@ import Kasa_About from '../../assets/Kasa/Kasa_About.webp'
 
 export default function Kasa() {
     const KasaData = DataJson.find(product => product.Titre_projet === "Projet Kasa");
-    const description_1 = KasaData.images_descriptions[0].description
-    const description_2 = KasaData.images_descriptions[1].description
+    const description_1 = KasaData.descriptions[0].description;
+    const description_2 = KasaData.descriptions[1].description;
+    const description_3 = KasaData.descriptions[2].description;
+    const description_4 = KasaData.descriptions[3].description;
 
     return (
 
@@ -30,9 +32,9 @@ export default function Kasa() {
             <Info_Projet source={Kasa_Logement} ></Info_Projet>
             <Modal description={description_2}></Modal>
             <Info_Projet source={Kasa_404} ></Info_Projet>
-            <Modal description={description_2}></Modal>
+            <Modal description={description_3}></Modal>
             <Info_Projet source={Kasa_About} ></Info_Projet>
-            <Modal description={description_2}></Modal>
+            <Modal description={description_4}></Modal>
         </section>
         <Footer goUP={'/Kasa#UP'}></Footer>
         </>

@@ -1,10 +1,25 @@
 [
     {
         "Titre_projet": "Projet Kasa",
-        "id": "0",
-        "images_descriptions": [
-            {"img":"http://localhost:3000/Kasa_logement.png", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS avec du SASS. Cette page comporte un composant 'Header' avec le logo Kasa puis une navigation permettant d'aller à l'accueil et sur une page avec les mentions légales. Ensuite il y un composant'Bannière' une image en background puis un titre surposé sur cette même image, il y a aussi en dessous une section comportant chaque 'card' qui est un composant graçe a un .map() je parcours le fichier json à la recherche de tout les image et titre et je les affiche en props d'un composant que j'ai appelé 'card_logement'."},
-            {"img": "../assets/Kasa_logement.ed1f22caa38d958359c9.png", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"}   
+        "id": "1",
+        "descriptions": [
+            {"id_description":"1", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS avec du SASS. Cette page comporte un composant 'Header' avec le logo Kasa puis une navigation permettant d'aller à l'accueil et sur une page avec les mentions légales. Ensuite il y un composant 'Bannière' une image en background puis un titre superposé sur cette même image, il y a aussi en dessous une section comportant chaque 'card' qui est un composant grâce à un .map() je parcours le fichier json à la recherche de toutes les images et titres et je les affiche en propos d'un composant que j'ai appelé 'card_logement'."},
+            {"id_description": "2", "description": "Vous voyez sur cette image ci-dessus l'exemple parfait d'une carte logement, elle est composée du composant 'Header' puis d'un composant 'Carrousel' qui affiche les images de la location, ensuite un composant 'InfoLogement' qui sert à afficher les informations de l'utilisateur qui met en location son bien, sa notation et les informations liées au logement. Il y aussi 2 composants 'Dropdown' qui affichent des informations complémentaires (c'est un menu déroulant) et pour finir le dernier composant le 'Footer'.Toutes ces informations sont récupérées grâce à une balise 'Navlink' sur chaque Card qui permet de récupérer les données sur la location que l'utilisateur a choisie sur la homepage"},
+            {"id_description": "3", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"},
+            {"id_description": "4", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"}    
+        ]  
+    }
+    ,
+    {
+        "Titre_projet": "Projet Sophie Bluel",
+        "id": "2",
+        "descriptions": [
+            {"id_description":"1", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS avec du SASS. Cette page comporte un composant 'Header' avec le logo Kasa puis une navigation permettant d'aller à l'accueil et sur une page avec les mentions légales. Ensuite il y un composant'Bannière' une image en background puis un titre surposé sur cette même image, il y a aussi en dessous une section comportant chaque 'card' qui est un composant graçe a un .map() je parcours le fichier json à la recherche de tout les image et titre et je les affiche en props d'un composant que j'ai appelé 'card_logement'."},
+            {"id_description": "2", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"},
+            {"id_description": "3", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"},
+            {"id_description": "4", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"},
+            {"id_description": "5", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"},
+            {"id_description": "6", "description": "Ceci est la homepage du projet Kasa réaliser en React.JS"}   
         ]  
     }
 ]
