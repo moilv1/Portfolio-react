@@ -1,5 +1,5 @@
 import './Header.scss'
-import logo from '../../assets/logo.webp'
+import logo from '../../assets/Moi_lv_1.jpg'
 import CV from '../../assets/CV_Melvin_Flahaut.pdf';
 import { NavLink } from 'react-router-dom';
 
