@@ -1,11 +1,11 @@
 .sidebar {
   width: 30%;
-  position: absolute;
+  position: fixed;
   top: 18%;
   left: -30%; 
   background-color: antiquewhite;
 
-  border-radius: 10px;
+  border-radius: 30px;
   color: black;
   transition: left 0.6s ease;
 }
@@ -36,9 +36,9 @@
 }
 
 .sidebar button {
-  position: absolute;
-  top: 10%;
-  left: 98%;
+  position: fixed;
+  top: 18.5%;
+  left: -0.5%;
   color: black;
   height: 40px;
   border-radius: 50%;
@@ -47,8 +47,10 @@
   background-color: black;
 }
 
-.SideBar_img{
-  width: 10%;
-  color: white;
-  background-color: white;
+@media (max-width:425px) {
+  .sidebar {
+    width: 55%;
+    top: 18%;
+    left: -55%; 
+  }
 }

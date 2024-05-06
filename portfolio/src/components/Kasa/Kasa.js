@@ -1,5 +1,5 @@
 import Header from "../Header/Header";
-import Info_Projet from "../Info_Projet/Info_Projet";
+import Info_Projet from "../Info_Projet/InfoProjet";
 import Modal from "../Modal/Modal";
 import Footer from "../Footer/Footer";
 import DataJson from '../../JSON/Data.json';

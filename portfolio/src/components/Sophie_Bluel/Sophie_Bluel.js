@@ -1,16 +1,16 @@
 import SideBarModal from "../SideBarModal/SideBar";
-import Info_Projet from "../Info_Projet/Info_Projet";
+import Info_Projet from "../Info_Projet/InfoProjet";
 import Modal from "../Modal/Modal";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import DataJson from "../../JSON/Data.json";
 
-import Home_SB from '../../assets/Sophie_Bluel/Home_SB.png';
-import Login_SB from '../../assets/Sophie_Bluel/Login_SB.png';
-import Admin_SB from '../../assets/Sophie_Bluel/Admin_SB.png';
-import Modal_SB from '../../assets/Sophie_Bluel/Modal_SB.png';
-import Ajout_SB from '../../assets/Sophie_Bluel/Ajout_SB.png';
-import Valider_SB from '../../assets/Sophie_Bluel/Valider_SB.png';
+import Home_SB from '../../assets/Sophie_Bluel/Home_SB.webp';
+import Login_SB from '../../assets/Sophie_Bluel/Login_SB.webp';
+import Admin_SB from '../../assets/Sophie_Bluel/Admin_SB_1.webp';
+import Modal_SB from '../../assets/Sophie_Bluel/Modal_SB.webp';
+import Ajout_SB from '../../assets/Sophie_Bluel/Ajout_SB.webp';
+import Valider_SB from '../../assets/Sophie_Bluel/Valider_SB.webp';
 
 
 export default function Sophie_Bluel() {

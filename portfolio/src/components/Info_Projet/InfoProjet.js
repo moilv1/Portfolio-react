@@ -1,4 +1,4 @@
-import './Info_Projet.scss';
+import './InfoProjet.scss';
 
 
 export default function Info_Projet({source}) {

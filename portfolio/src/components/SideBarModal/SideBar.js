@@ -10,7 +10,7 @@ const SideBar = ({lien}) => {
 
   return (
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-      <button onClick={toggleSidebar}>{`>>`}</button>
+      <button onClick={toggleSidebar}>{isOpen ? ("<<") : (">>")}</button>
       <ul>
         <li><a href={lien}>Lien GitHub</a></li>
       </ul>
