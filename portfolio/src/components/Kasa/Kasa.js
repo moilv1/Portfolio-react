@@ -5,6 +5,10 @@ import Footer from "../Footer/Footer";
 import DataJson from '../../JSON/Data.json';
 import './Kasa.scss';
 import SideBarModal from "../SideBarModal/SideBar";
+import logo_react from '../../assets/React-icon.svg.png';
+import logo_sass from '../../assets/2560px-Sass_Logo_Color.svg.png';
+import logo_html from '../../assets/HTML5_logo_and_wordmark.svg.png';
+import logo_github from '../../assets/GitHub-Logo.wine.png';
 
 
 import Kasa_Logement from '../../assets/Kasa/Kasa_logement.webp';
@@ -25,6 +29,16 @@ export default function Kasa() {
         <>
         <Header></Header>
         <div className="hr"></div>
+        <h1>Projet Kasa</h1>
+        <div className="skills">
+            <p>Compètences utilisé pour le projet Kasa :</p>
+            <div className="skills_img">
+                <img src={logo_react}></img>
+                <img src={logo_sass}></img>
+                <img src={logo_html}></img>
+                <img src={logo_github}></img>
+            </div>
+        </div>
         <SideBarModal lien={'https://github.com/moilv1/P.8-KASA'}></SideBarModal>
         <section className="content">
             <Info_Projet source={Kasa_Home} ></Info_Projet>

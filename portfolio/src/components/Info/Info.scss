@@ -34,10 +34,26 @@
             }
         }
 
-        .PP{
-            margin-top: 20px;
-            width: 270px;
-            border-radius: 5%;
+        .Info_competences{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                align-self: center;
+                padding-top: 8px;
+                font-size: 24px;
+                margin: 0;
+            }
+
+            .Info_competences-img{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                img{
+                    margin-top: 30px;
+                    height: 40px;
+                }
+            }
         }
     }
 }
@@ -60,10 +76,18 @@
                 font-size: 20px;
             }
     
-            .PP{
-                margin-top: 20px;
-                width: 70%;
-                border-radius: 5%;
+            .Info_competences{
+    
+                h2{
+                    font-size: 24px;
+                }
+    
+                .Info_competences-img{
+                    img{
+                        margin-top: 30px;
+                        height: 65px;
+                    }
+                }
             }
         }
     }
@@ -74,6 +98,13 @@
         .Info_container{
             margin-left: 26%;
             margin-right: 26%;
+            .Info_competences{
+                .Info_competences-img{
+                    img{
+                        height: 85px;
+                    }
+                }
+            }
         }
     }
 }
@@ -83,6 +114,18 @@
         .Info_container{
             margin-left: 28%;
             margin-right: 28%;
+            .Info_competences{
+    
+                h2{
+                    font-size: 24px;
+                }
+    
+                .Info_competences-img{
+                    img{
+                        height: 105px;
+                    }
+                }
+            }
         }
     }
 }

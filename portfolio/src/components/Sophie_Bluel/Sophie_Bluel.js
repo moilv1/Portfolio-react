@@ -4,6 +4,12 @@ import Modal from "../Modal/Modal";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import DataJson from "../../JSON/Data.json";
+import logo_html from '../../assets/HTML5_logo_and_wordmark.svg.png';
+import logo_github from '../../assets/GitHub-Logo.wine.png';
+import logo_JS from '../../assets/JS_logo.png';
+import logo_css from '../../assets/css.png';
+
+import './Sophie_bluel.scss'
 
 import Home_SB from '../../assets/Sophie_Bluel/Home_SB.webp';
 import Login_SB from '../../assets/Sophie_Bluel/Login_SB.webp';
@@ -28,6 +34,16 @@ export default function Sophie_Bluel() {
         <>
         <Header></Header>
         <div className="hr"></div>
+        <h1>Projet Sophie Bluel</h1>
+        <div className="skills">
+            <p>Compètences utilisé pour le projet Sophie Bluel :</p>
+            <div className="skills_img">
+                <img src={logo_html}></img>
+                <img src={logo_css}></img>
+                <img src={logo_JS}></img>
+                <img src={logo_github}></img>
+            </div>
+        </div>
         <SideBarModal lien={'https://github.com/moilv1/P.6-Sophie-Bluel'}></SideBarModal>
         <section className="content">
             <Info_Projet source={Home_SB} ></Info_Projet>
